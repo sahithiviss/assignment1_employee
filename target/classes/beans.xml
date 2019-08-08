@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+ <bean id="cl" class="com.demo.Assignment1.Clerk">
+  <property name="salary" value="8000"></property>
+  <property name="designation" value="Clerk"></property>
+  </bean>
+   <bean id="pr" class="com.demo.Assignment1.Programmer">
+  <property name="salary" value="25000"></property>
+  <property name="designation" value="Programmer"></property>
+  </bean>
+   <bean id="mg" class="com.demo.Assignment1.Manager">
+  <property name="salary" value="70000"></property>
+  <property name="designation" value="Manager"></property>
+  </bean>
+</beans>
